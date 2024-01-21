@@ -38,6 +38,8 @@ export default function RootLayout({
         <meta name="config" content={JSON.stringify(getClientConfig())} />
         <link rel="manifest" href="/site.webmanifest"></link>
         <script src="/serviceWorkerRegister.js" defer></script>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6765970453610684" crossOrigin="anonymous"></script>
+        <GoogleAnalytics gaId="G-MGLH4CL608" />
       </head>
       <body>
         {children}
